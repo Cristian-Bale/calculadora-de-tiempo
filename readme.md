@@ -2,13 +2,6 @@ Proyecto de calculadora de tiempo
 
 Su función es calcular el tiempo entre la suma del tiempo de inicio y un período de tiempo; utilice el sistema "am/pm" y puede calcular la cantidad de días transcurridos si se proporciona
 
-
-
-
-
-
-
-
 Guía de trabajo:
 
 
