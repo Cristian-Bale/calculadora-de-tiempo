@@ -47,7 +47,7 @@ def add_time(start_time, duration, day_of_week=None):
     new_time = f'{final_hour_12}:{final_minute_str} {result_period}'
 
     if day_of_week:
-        days_of_the_week = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+        days_of_the_week = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
         start_day_index = days_of_the_week.index(day_of_week.lower()) 
         new_day_index = (start_day_index + days_later) % 7 
         final_day = days_of_the_week[new_day_index] 
