@@ -1,4 +1,13 @@
-Construya un proyecto de calculadora de tiempo
+Proyecto de calculadora de tiempo
+
+Su función es calcular el tiempo entre la suma del tiempo de inicio y un período de tiempo; utilice el sistema "am/pm" y puede calcular la cantidad de días transcurridos si se proporciona
+
+
+
+
+
+Guía de trabajo:
+
 
 Escriba una función llamada add_time que acepte dos parámetros obligatorios y un parámetro opcional:
 
@@ -32,14 +41,7 @@ add_time('6:30 PM', '205:12')
 # Returns: 7:42 AM (9 days later)
 No importe ninguna biblioteca de Python. Asuma que las horas de inicio son válidas. Los minutos en la duración serán un número entero menor que 60, pero la hora puede ser cualquier número entero.
 
-Nota: abra la consola del navegador con F12 para ver una salida más detallada de las pruebas.
 
-Ejecutar las pruebas (Ctrl + Enter)
-Guarda tu código
-Revertir al código guardado
-
-Obtener ayuda
-Pruebas
 Espera :1. La llamada add_time('3:30 PM', '2:12')debería devolver '5:42 PM'.
 Espera :2. La llamada add_time('11:55 AM', '3:12') debería devolver '3:07 PM'.
 Espera :3. Hora prevista de finalización '(next day)'cuando sea el día siguiente.
